@@ -24921,5 +24921,8 @@
     <EntityDescriptor id="Material_Hexcity_Token" category="material" sizeX="1" sizeY="1">
       <State x="134" y="239" id="InitialState" spriteId="brb_sign" />
     </EntityDescriptor>
+    <EntityDescriptor id="Material_Halloween26_Token" category="material" sizeX="1" sizeY="1">
+      <State x="134" y="239" id="InitialState" spriteId="brb_sign" />
+    </EntityDescriptor>
   </DynamicEntities>
 </GameDefinitions>
