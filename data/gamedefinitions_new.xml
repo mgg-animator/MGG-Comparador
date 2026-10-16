@@ -23082,16 +23082,16 @@
     </EntityDescriptor>
     <EntityDescriptor id="Specimen_FA_14" movable="true" storable="true" category="specimen" sizeX="0.01" sizeY="0.01">
       <State id="default" spriteId="specimen_FA_14_stand" sellPrice="20000" />
-      <Tag key="spX100" value="185" />
-      <Tag key="odds" value="20" />
+      <Tag key="spX100" value="200" />
+      <Tag key="odds" value="0" />
       <Tag key="dna" value="FA" />
-      <Tag key="lifePoint" value="1420" />
+      <Tag key="lifePoint" value="1130" />
       <Tag key="incubMin" value="60" />
       <Tag key="specimen" value="true" />
-      <Tag key="atk1" value="1451" />
-      <Tag key="atk1p" value="1451:AOE" />
-      <Tag key="atk2" value="1451" />
-      <Tag key="atk2p" value="1451:AOE" />
+      <Tag key="atk1" value="312" />
+      <Tag key="atk1p" value="468:AOE" />
+      <Tag key="atk2" value="312" />
+      <Tag key="atk2p" value="468:AOE" />
       <Tag key="bank" value="42" />
       <Tag key="unlockAttack" value="1:1:f;2:5:a;2p:15:a;1p:10:f" />
       <Tag key="type" value="LEGEND" />
@@ -23100,10 +23100,11 @@
       <Tag key="changePrice02" value="99999999" />
       <Tag key="changePrice03" value="99999999" />
       <Tag key="recipes" value="FA_14x[A-F][A-F]_*+FA_14x[A-F]_*" />
-      <Tag key="abilities" value="1:ability_shield;2:ability_shield_plus" />
-      <Tag key="abilityPct1" value="16" />
-      <Tag key="abilityPct2" value="32" />
+      <Tag key="abilities" value="1:ability_weaken;2:ability_weaken_plus" />
+      <Tag key="abilityPct1" value="-20" />
+      <Tag key="abilityPct2" value="-30" />
       <Tag key="orbSlots" value="n;n;s" />
+      <Tag key="PNJ" value="true" />
       <CustomScript name="onPlaceOver">
         <Script cmd="PlaceSpecimen">
           <Param>Specimen_F_A</Param>
